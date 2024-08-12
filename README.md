@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://flash-card-learning-web-app.vercel.app/">
-    <img src="https://socialify.git.ci/Anujmishra2005/FlashCard-Learning-WebApp/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="Logo" width="800" height="800">
+    <img src="https://socialify.git.ci/Anujmishra2005/FlashCard-Learning-WebApp/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="Logo">
   </a>
 
   <h3 align="center">FlashCard-Learning-WebApp</h3>
@@ -38,14 +38,13 @@
   <p align="center">
     An interactive web app for creating, managing, and testing knowledge with flashcards, featuring timed quizzes and progress tracking.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://flash-card-learning-web-app.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -73,7 +72,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -81,36 +79,41 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<div align="center">
+  <a href="https://flash-card-learning-web-app.vercel.app/">
+    <img src="https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/blob/main/Screenshots/SC1.png">
+    <img src="https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/blob/main/Screenshots/SC2.png">
+    <img src="https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/blob/main/Screenshots/SC3.png">
+    <img src="https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/blob/main/Screenshots/SC4.png">
+    <img src="https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/blob/main/Screenshots/SC5.png">
+  </a>
+</div>
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## Features of Project
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+*View Flashcards: Browse through flashcards to study and reinforce knowledge.<br>
+*Add Flashcards: Create new flashcards with custom questions and answers.<br>
+*Edit Flashcards: Modify existing flashcards to update or correct information.<br>
+*Delete Flashcards: Remove flashcards that are no longer needed.<br>
+*Test Mode: Engage in a timed challenge to test your knowledge and improve recall speed.<br>
+*Scoreboard: View the number of clicks for each flashcard during Test Mode.<br>
+*Timer Reset: Reset the timer and flashcard index to start the test over.<br>
+*Instruction Modal: Access detailed instructions on how to use the app at any time.<br>
+*Dashboard: Navigate to the Dashboard for additional settings and functionalities.<br>
+*Number of Clicks: Track how many times each flashcard was clicked in Test Mode.<br><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-### Built With
+## Technologies Used 
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+*React: A JavaScript library for building user interfaces.<br>
+*React Router: Used for navigating between different views in the application.<br>
+*Tailwind CSS: For styling the app with a modern, responsive design.<br>
+*React Toastify: For displaying notifications and alerts within the app.<br>
+*React Icons: For including iconography in the user interface.<br>
+*AWS S3: For deployment and hosting.<br><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,10 +122,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Follow these steps to get the project up and running on your local machine.
 
 ### Prerequisites
+
+Make sure you have the following installed on your system:
+
+*Node.js: Download and install Node.js from here.<br>
+*npm or yarn: npm is installed with Node.js. You can also install yarn if you prefer.<br><br>
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
@@ -137,7 +144,7 @@ _Below is an example of how you can instruct your audience on installing and set
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/AnujMishra2005/FlashCard-Learning-WebApp.git
    ```
 3. Install NPM packages
    ```sh
@@ -149,7 +156,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 5. Change git remote url to avoid accidental pushes to base project
    ```sh
-   git remote set-url origin github_username/repo_name
+   git remote set-url origin AnujMishra2005/FlashCard-Learning-WebApp
    git remote -v # confirm the changes
    ```
 
@@ -157,12 +164,16 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 
-<!-- USAGE EXAMPLES -->
 ## Usage
+1) Test Mode and Timed Quizzes :---<br>
+*Test Your Knowledge:- Enter Test Mode to challenge yourself with timed quizzes. Each flashcard has a 10-second timer, pushing you to recall information quickly.<br>
+*Track Your Progress:- Use the scoreboard to review how many times each flashcard was clicked during Test Mode, helping you identify areas where you might need more practice.<br><br>
+2) Flashcard Management :---<br>
+*Create and Customize Flashcards:- Easily add, edit, and delete flashcards to tailor your learning experience to your needs.<br>
+*Reset Functionality:- Reset your flashcards and timer with a single click, allowing you to start fresh anytime.<br><br>
+3) Instruction Modal :---<br>
+*Guided Learning: Access the instruction modal for detailed guidance on using the app effectively, including tips for maximizing your learning efficiency.<br>
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,7 +190,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [ ] Chinese
     - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/issues/new?labels=enhancement&template=feature-request---.md) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,13 +210,6 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-### Top contributors:
-
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -221,60 +225,31 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Anuj Mishra - [@AnujMishra2022_twitter](https://twitter.com/AnujMishra2005) - anujmishraan2005@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Linkedin : [https://www.linkedin.com/in/anujmishra05](https://www.linkedin.com/in/anujmishra05)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Portfolio Link: [https://anujmishra.xyz](https://professional-portfolio-plum.vercel.app/)
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+Project Link: [https://github.com/Anujmishra2005/FlashCard-Learning-WebApp](https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/tree/main)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/AnujMishra2005/FlashCard-Learning-WebApp.svg?style=for-the-badge
+[contributors-url]: https://github.com//graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AnujMishra2005/FlashCard-Learning-WebApp.svg?style=for-the-badge
+[forks-url]: https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/network/members
+[stars-shield]: https://img.shields.io/github/stars/AnujMishra2005/FlashCard-Learning-WebApp.svg?style=for-the-badge
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[issues-shield]: https://img.shields.io/github/issues/Anujmishra2005/FlashCard-Learning-WebApp.svg?style=for-the-badge
+[issues-url]: https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/issues
+[license-shield]: https://img.shields.io/github/license/Anujmishra2005/FlashCard-Learning-WebApp.svg?style=for-the-badge
+[license-url]: https://github.com/Anujmishra2005/FlashCard-Learning-WebApp/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[linkedin-url]: https://www.linkedin.com/in/anujmishra05
+
