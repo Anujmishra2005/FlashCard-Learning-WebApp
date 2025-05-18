@@ -26,7 +26,6 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://flash-card-learning-web-app.vercel.app/">
